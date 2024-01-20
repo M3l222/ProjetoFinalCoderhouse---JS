@@ -296,7 +296,7 @@ footer {
   }
 
   .text-welcome p {
-    width: 350px
+    width: auto;
   }
   .image-grid-plant {
     display: flex;
