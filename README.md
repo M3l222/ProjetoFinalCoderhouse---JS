@@ -1,2 +1,2 @@
-# Akel
-Akel é mais um site para meu portfólio
+# Projeto final Coderhouse
+Projeto curso de Javascript
