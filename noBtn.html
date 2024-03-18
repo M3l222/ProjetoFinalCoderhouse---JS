@@ -4,91 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Idea Vintage Bazar</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/noBtn-page.css">
     <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
-<body class="showCart">
-    <!-- MODAL -->
-    <div class="modal-overlay" id="modal">
-  <div class="modal">
-    <div class="modal-content">
-      <p>Você é de São Paulo?</p>
-      <button id="yesBtn">Sim</button>
-      <button id="noBtn">Não</button>
-    </div>
-  </div>
-</div>
-    <!-- HEADER NAV -->
-    <div class="container">
-    <header>
+<body>
+    <!-- NAV -->
+<header>
         <div class="menu-top">
         <div class="elements-top">
             <div class="logo_topo">
             <h2>Idea</h2>
-            <a href="index.html" rel="nofollow"><img src="images/logo.png" title="logo" alt="logo"></a>            
-        </div>
+            <a href="index.html" rel="nofollow"><img src="images/logo.png" title="logo" alt="logo"></a>            </div>
             <nav class="navig-one">
             <a href="index.html" title="Home" class="a-top" rel="nofollow">home</a>
             <a href="ajuda.html" title="Ajuda"  class="a-top" rel="nofollow">ajuda</a>
             <a href="contato.html" title="Contact"  class="a-top" rel="nofollow">contato</a>
-            <div class="iconCart">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M50.7 58.5L0 160H208V32H93.7C75.5 32 58.9 42.3 50.7 58.5zM240 160H448L397.3 58.5C389.1 42.3 372.5 32 354.3 32H240V160zm208 32H0V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192z"/></svg>
-                <span class="totalQuantity">0</span>
-            </div>
         </nav>
     </div>
         </div>
     </header>
-    </div>
-    <!-- CART -->
-    <div class="cart">
-        <h2>Carrinho</h2>
-        <div class="listCart">
-        </div>
-        <div class="btn">
-            <a class="close">Fechar</button>
-            <a href="checkout.html" class="checkOut">Finalizar</button>
+    <!-- Mensagem section -->
+    <div class="message">
+        <div class="message-content">
+            <img src="images/noBtn-image.png" title="Não atendemos em São Paulo">
+            <h3>Ops . . . !</h3>
+            <span>Ainda não atendemos fora de São Paulo</span>
+            <p>Mas continue olhando o catálogo!</p>
         </div>
     </div>
-    <!-- WELCOME SECTION -->
+    
 
-    <div class="welcome-page">
-        <div class="wrapper">
-        <div class="text-welcome">
-            <h2>Viva confortável</h2>
-            <p>Na Idea, simplificamos a experiência de compra para tornar tudo confortável.<br>
-            Móveis personalizados e feitos sob medida. Faça um orçamento e descubra novas possibilidades de mobiliar seu espaço!</p>
-        <a href="ajuda.html" title="Quero saber mais" rel="nofollow" id="abt">Quero saber mais</a>
-
-
-        </div>
-    </div>
-    </div>
-
-    <div class="wrapper comp-section">
-        <div class="logo">
-        <h2>Sobre a Idea</h2>
-        <a href="index.html" rel="nofollow"><img src="images/logo.png" title="logo" alt="logo"></a>        </div>
-        <p>Seja bem-vindo à Idea Bazar Vintage!</p>
-        <p>A Idea Bazar Vintage é mais do que um simples estabelecimento comercial; é um tesouro de descobertas para aqueles que apreciam a estética clássica e a qualidade intemporal dos móveis vintage.</p>
-        <p>Navegue pelo nosso catálogo virtual e descubra uma variedade de estofados, vasos, mesas de centro e luminárias vintage disponíveis para personalização e encomenda sob medida. </p>
-        <div class="logo">
-        <h2>Como posso orçar?</h2>
-        <a href="index.html" rel="nofollow"><img src="images/logo.png" title="logo" alt="logo"></a>        </div>
-        <p>Abaixo, vai encontrar um catálogo de produtos que já produzimos e que possa se interessar. Contamnos com uma equipe de designers e arquitetos para podermos criar e deixar sua encomenda sob-medida.</p>
-        <p>Os agendamentos servem para personalizarmos o atendimento, marcar visita e realizarmos a encomenda sem que o cliente fique com dúvidas. Também acordamos o envio dos produtos na loja física, de modo que, facilite caso não possa transportar o móvel.</p>
-        <p>Estamos ansiosos para te atender. Sinta-se em casa!</p>
-    </div>
-
-<!-- PRODUCT SECTION -->
-<div class="product-page">
-   <div class="listProduct">
-        <div class="item"></div>
-    </div>
-</div>        
-
-<!-- FOOTER CONTACT -->
-        <footer class="footer-contact">
+    <!-- FOOTER CONTACT -->
+    <footer class="footer-contact">
             <div class="footer-elements">
             <h2>Idea Vintage Bazar</h2>
             <div class="social-icons">
@@ -112,19 +59,6 @@
                 <a href="#Contact" title="Contact"  class="a-top" rel="nofollow">contact</a>
             </nav>
         </div>
-            
-<!--MODAL -->
-
-<script src="saudacao/modal.js"></script>
-
-            
-<!-- CARRINHO E CRIADOR DE PRODUTOS -->
-
-<script src="uteis/products-cart.js"></script>
-
-
-</footer>
+    </footer>
 </body>
-
 </html>
-
